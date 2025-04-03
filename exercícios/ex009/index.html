@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Projerinho 10(listas)</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <h2>Listas Ordenadas</h2>
+    <p>Para criar listas ordenadas, ou seja, que a ordem na qual são expostas é de extrema importância, basta usar a tag <ins>"&lt;ol&gt;"</ins>. Nesse sentido, também deve-se usar a tag, dentro da outra tag, <ins>"&lt;li&gt;"</ins> para colocar os componentes da lista de forma ordenada. Usarei uma lista de ingredientes para bolo como exemplo.</p>
+    <h3>Lista de ingredientes para bolo gelado de coco</h3>
+     <ol>
+        <li>4 ovos</li>
+        <li>2 xícaras de chá de farinha de trigo</li>
+        <li>1 xícara de chá de açúcar</li>
+        <li>1 xícara de chá de leite</li>
+        <li>2 colheres de sopa de margarina ou manteiga sem sal</li>
+        <li>2 colheres de sopa de coco ralado para a massa</li>
+        <li>1 colher de sopa de fermento em pó</li>
+     </ol>
+     <p>Pode-se usar o parâmetro <ins>"type"</ins>, dentro da tag <ins>"&lt;ol&gt;"</ins>, para definir o tipo de lista.</p>
+     <h3>Outros tipos de listas organizadas</h3>
+     <ol type="A">
+        <li>4 ovos</li>
+        <li>2 xícaras de chá de farinha de trigo</li>
+        <li>1 xícara de chá de açúcar</li>
+        <li>1 xícara de chá de leite</li>
+        <li>2 colheres de sopa de margarina ou manteiga sem sal</li>
+        <li>2 colheres de sopa de coco ralado para a massa</li>
+        <li>1 colher de sopa de fermento em pó</li>
+     </ol>
+     <ol type="a">
+        <li>4 ovos</li>
+        <li>2 xícaras de chá de farinha de trigo</li>
+        <li>1 xícara de chá de açúcar</li>
+        <li>1 xícara de chá de leite</li>
+        <li>2 colheres de sopa de margarina ou manteiga sem sal</li>
+        <li>2 colheres de sopa de coco ralado para a massa</li>
+        <li>1 colher de sopa de fermento em pó</li>
+     </ol>
+     <ol type="I">
+        <li>4 ovos</li>
+        <li>2 xícaras de chá de farinha de trigo</li>
+        <li>1 xícara de chá de açúcar</li>
+        <li>1 xícara de chá de leite</li>
+        <li>2 colheres de sopa de margarina ou manteiga sem sal</li>
+        <li>2 colheres de sopa de coco ralado para a massa</li>
+        <li>1 colher de sopa de fermento em pó</li>
+     </ol>
+     <ol type="i">
+        <li>4 ovos</li>
+        <li>2 xícaras de chá de farinha de trigo</li>
+        <li>1 xícara de chá de açúcar</li>
+        <li>1 xícara de chá de leite</li>
+        <li>2 colheres de sopa de margarina ou manteiga sem sal</li>
+        <li>2 colheres de sopa de coco ralado para a massa</li>
+        <li>1 colher de sopa de fermento em pó</li>
+     </ol>
+     <p>Caso queira que a lista começe de um número específico, use o parâmetro <ins>"start"</ins> e selecione o número que deseja.</p>
+     <h3>Listas ordenadas com começos diferentes</h3>
+     <ol type="1" start="5">
+        <li>4 ovos</li>
+        <li>2 xícaras de chá de farinha de trigo</li>
+        <li>1 xícara de chá de açúcar</li>
+        <li>1 xícara de chá de leite</li>
+        <li>2 colheres de sopa de margarina ou manteiga sem sal</li>
+        <li>2 colheres de sopa de coco ralado para a massa</li>
+        <li>1 colher de sopa de fermento em pó</li>
+     </ol>
+     <h2>Listas não ordenadas</h2>
+     <p>Para criar listas não ordenadas, ou seja, que a ordem na qual são expostas não tem importância, basta usar a tag <u>"&lt;ul&gt;"</u>. Um exemplo seria uma lista de compras.</p>
+     <h3>Lista de Compras</h3>
+     <ul>
+        <li>Café;</li>
+        <li>Cereais;</li>
+        <li>Achocolatado;</li>
+        <li>Pão;</li>
+        <li>Suco ou chá;</li>
+        <li>Adoçante ou açúcar;</li>
+        <li>Torradas;</li>
+        <li>Geleia.</li>
+     </ul>
+     <h2>Junção de listas</h2>
+     <p>Para criar uma lista dentro de outra lista, basta usar a tag <u>"&lt;ol&gt;"</u>, ou a tag <u>"&lt;ul&gt;"</u>, dentro de uma ja existente.</p>
+     <h3>lista de objetos favoritos antigos e novos</h3>
+     <ol>
+        <li>Antigos</li>
+          <ol type="a">
+             <li>brinquedos</li>
+             <li>tv</li>
+             <li>bola de futebol</li>
+          </ol>
+        <li>Novos</li>
+          <ol type="a" start="4">
+             <li>celular</li>
+             <li>bola de futebol</li>
+             <li>notebook</li>
+          </ol>
+     </ol>
+     <h3>Jogos que já zerei</h3>
+     <ol>
+        <li>playstation</li>
+            <ul type="square">
+                <li>Ben 10: Força alienigina</li>
+                <li>GTA: San Andreas<square
+                <li>Power rangers</li>
+                <li>Tartarugas ninjas</li>
+                <li>Batman Begins</li>
+                <li>Pica-pau</li>
+            </ul>  
+        <li>Xbos 360</li>
+            <ul type="square">
+                <li>Batman arkham asylum</li>
+                <li>Call of duty</li>
+                <li>Lego marvel super hero's</li>
+                <li>Lego Batman 2</li>
+                <li>Lego jurassic world</li>
+                <li>Portal 2</li>
+                <li>Gears of war</li>
+                <li>FIFA</li>
+            </ul>
+        <li>Pc</li>
+            <ul type="square">
+                <li>Ultimate spider-man</li>
+                <li>Broforce</li>
+                <li>Outlast</li>
+                <li>Batman arkham city</li>
+                <li>Outlast 2</li>
+            </ul>
+     </ol>
+     <h2>Lista de definição</h2>
+    <p>Para criar uma lista de definição, ou seja, uma lista com o componente mais o seu significado, basta usar a tag <u>"&lt;dl&gt;"</u>. Nesse sentido, deve-se usar a tag <u>"&lt;dt&gt;"</u> para colocar o termo e a <u>"&lt;dd&gt;"</u> para colocar a descrição.</p> 
+    <h3>Palavras e seus significados</h3>
+    <dl>
+      <dt>Absorto</dt>
+      <dd>voltado para os próprios pensamentos; distraído, alheado, abstraído</dd>
+      <dt>Inefável</dt>
+      <dd>que não se pode nomear ou descrever em razão de sua natureza, força, beleza; indizível, indescritível</dd>
+      <dt>Algoz</dt>
+      <dd>carrasco, executor da pena de morte ou de outras penas corporais (como tormentos, açoites etc.)</dd>
+      <dt>infortúnio</dt>
+      <dd>má fortuna; adversidade, desdita, infelicidade</dd>
+      <dt>lúgubre</dt>
+      <dd>relativo à morte, aos funerais; que evoca a morte; fúnebre, macabro</dd>
+      <dt>âmago</dt>
+      <dd>a parte mais íntima ou fundamental; essência</dd>
+      <dt>Findável</dt>
+      <dd>cujo fim é possível ou provável; transitório, finito, efêmero</dd>
+      <dt>Infindável</dt>
+      <dd>que não pode ter fim ou que parece não ter fim</dd>
+    </dl>
+    
+</body>
+</html>

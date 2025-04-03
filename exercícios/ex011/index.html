@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Projetinho 11</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <h2>Diferentes tamanhos</h2>
+    <p>Quando se desenvolve um site, deve-se sempre se preocupar com que dispositivo o usuário vai acessar a página. Desta forma, use a tag "&lt;picture&gt;" para a imagem ser redimensionada de acordo com o tamanho da tela do cliente, por isso, sempre tenha 3 opções de imagem.</p>
+    <p>Dentro da tag "&lt;picture&gt;", use a tag "&lt;img&gt;" para colocar a imagem, depois use "&lt;source&gt;" e selecione a que tem "media-type", para configurar a forma que ela irá se redimensionar. Nesse sentido, modifique a tag colocando o "media="(min-width: )" para "media="(max-width: 1050px)",assim, se o navegador do cliente tiver menos de 1000 pixels, ele usará a outra imagem, de caráter menor. Porém, vale ressaltar, que são 1000px por que a imagem maior que temos é de 1000, e sempre coloque 50 pixels a mais na tag. Nesse interím, coloque a foto que deve ser substituida no "srcset=" "" e coloque o tipo da imagem no "type="image/". Veja o exemplo.</p>
+    <p>OBS:</p>
+    <ul type="square">
+        <li>Nunca salve o nome das imagens com espaço;</li>
+        <li>Nunca inverta os sources, os maiores são sempre embaixo;</li>
+        <li>Escreva o nome dos documentos corretos para não ter erro;</li>
+        <li>Corte as imagens de acordo com tamanho.</li>
+    </ul>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="flexível imagem">
+    </picture>
+    <h2>Imagens reais</h2>
+    <p>Irei fazer o mesmo, mas com imagens reais</p>
+     <picture>
+        <source media="(max-width: 730px)" srcset="imagens/imagem-goku-p.png" type="image/png">
+        <source media="(max-width: 1030px)" srcset="imagens/imagem-goku-m.png" type="image/png">
+        <img src="imagens/imagem-goku-g.png" alt="imagem flexível do goku">
+     </picture>
+     <h2>Imagens cortadas</h2>
+     <picture>
+        <source media="(max-width: 659px)" srcset="imagens/imagem-goku-p-cortada.png" type="image/png">
+        <source media="(max-width: 830px)" srcset="imagens/imagem-goku-m-cortada.png" type="image/png">
+        <img src="imagens/imagem-goku-g-cortada.png" alt="imagem flexível do goku">
+     </picture>
+     <h2>Áudios</h2>
+    <p>Para adicionar áudios ao site, deve-se usar a tag 
+     "&lt;audio&gt;" mais o parâmetro "autoplay", para ele poder tocar, e "controls", para aparecer o player no site.</p>
+     <p>Ex: Ouça a música.</p>
+     <audio src="mídia/Lake Jupiter - John Patitucci.mp3" autoplay controls></audio>
+     <p>A outra forma de adicionar áudio, e por meio da tag "&lt;audio&gt;" e, dentro dele, usar a "&lt;source&gt;" e selecionar a que tem "src". Além disso, use o parâmetro "preload" e os antigos supracitados.</p>
+     <p>OBS:Caso queira que o áudio rode em loop, é só adicionar a tag "loop"</p>
+     <p>Ex:</p>
+     <audio preload="metadata" controls>
+        <source src="mídia/Lake Jupiter - John Patitucci.mp3" type="audio/mpeg">
+     </audio>
+
+</body>
+</html>

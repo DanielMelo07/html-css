@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Desafio</title>
+</head>
+<body>
+    <h1>Imagem que se adapta</h1>
+    <p>Irei criar uma imagem que de adapta ao tamnho da tela.</p>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1200px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="">
+    </picture>
+    <h2>Outra imagem</h2>
+    <picture>
+        <source media="(max-width: 800px)" srcset="imagens/imagem-p.jpg" type="image/jpg">
+        <source media="(max-width: 1200px)" srcset="imagens/imagem-m.jpg" type="image/jpg">
+        <img src="imagens/imagem-g.jpg" alt="">
+    </picture>
+</body>
+</html>

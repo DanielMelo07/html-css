@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Mr+Dafoe&display=swap');
+@font-face {
+    font-family: 'idroid';
+    src: url(pacote-projeto-d010/fontes/idroid.otf) format('opentype');
+}
+body{
+    font-family: 'idroid';
+    margin: 0%;
+    background-color: #38C979;
+    text-align: justify;
+}
+header {
+    background-image: linear-gradient(to bottom, #38C979, #1E683E);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1 {
+    font-family:  "Big Shoulders", sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: white;
+    margin: 0px 50px 30px 50px;
+}
+h3{
+    font-family: "Big Shoulders", sans-serif;
+     text-align: center;
+     color: white;
+     font-size: 20px;
+     font-style: normal;
+     margin-bottom: 40px;
+}
+nav > a{
+    font-family:  "Big Shoulders", sans-serif;
+    font-size: 16px;
+    margin-left: 40px;
+    color: white;
+    text-decoration: none;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+main{
+    background-color: white;
+    width: 850px;
+    margin: 0px auto 20px auto;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+main > h1#conteudo{
+    font: normal 2em 'idroid';
+    color: #1E683E;
+    text-align: left;
+    margin-left: 0px;
+    
+}
+main > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 40px;
+    text-align: justify;
+}
+p > .externos{
+    color: #1E683E;
+    font-style: bold;
+    text-decoration: none;
+}
+p > .externos:hover{
+    text-decoration: underline;
+}
+
+main > .conteudo{
+    background-image: linear-gradient(to right, #38c9792f, white );
+    color: #1E683E;
+}
+picture > img{
+     display: block;
+     margin: 40px auto 40px auto;
+    
+}
+section#video {
+    background-color: #1E683E;
+    padding: 20px;
+}
+section#video > iframe{
+    display: block;
+    margin: auto;
+}
+main#conteudoverde{
+    background-color: #38C979;
+    width: 750px;
+    height: 550px;
+    margin: 20px auto 25px auto;
+    border-radius: 10px;
+    padding: 0px;
+    border-radius: 20px;
+    box-shadow: 5px 6px 17px 3px rgba(0, 0, 0, 0.441);
+
+}
+main#conteudoverde > section{
+    margin: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    text-indent: 40px;
+    text-align: justify;
+}
+main#conteudoverde > h3{
+    background-color: #1E683E;
+    text-align: left;
+    padding: 20px;
+    border-radius: 20px 20px 0px 0px;  
+}
+footer{
+    background-color: #1E683E;
+    margin: 0px;
+    
+}
+footer > h4{
+    text-align: center;
+    color: white;
+    font: normal 16px "Big Shoulders", sans-serif;
+    margin-bottom: 0px;
+    padding: 5px;
+}

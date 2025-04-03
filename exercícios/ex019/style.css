@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(61, 149, 203);
+    font:normal 16px 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+h1#titulo{
+    text-align: center;
+    color: white;
+    font-size: 2.8em;
+}
+main{
+    background-color:rgb(39, 94, 129) ;
+    padding: 50px;
+    
+}
+.caixaesquerda{
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    margin: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    float: left;
+    border-radius: 20px;
+
+}
+.caixadireita{
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    margin: 30px;
+    float: right;
+    border-radius: 20px;
+}

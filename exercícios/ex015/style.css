@@ -1,0 +1,21 @@
+@charset "UTF-8";
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+h2{
+    color: white;
+}
+p{
+    font-family: sans-serif;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+}
+img{
+    text-align: center;
+    display: block;
+    margin: 0% auto; 
+}

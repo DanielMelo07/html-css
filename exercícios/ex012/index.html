@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Projetinho 12</title>
+</head>
+<body>
+    <h1>Vídeos</h1>
+    <h2>Vídeos em hospedagem própria</h2>
+    <p>Para colocar vídeos, basta usar a tag "&lt;video&gt;". Desat forma, use os parâmetros: "width"" para redimensionar na tela, "controls para ativar os controles e "poster" para colocar uma tumb.</p>
+    <p>OBS: Está é a forma mais simples</p>
+    <video src="vídeos/video_576.mp4" controls width="560" loop></video>
+    <p>Para fazer da forma mais completa, use a mesma tag, mas com o "source=src" para adicionar o vídeo (Como no caso dos áudios).</p>
+    <video controls width="560" poster="imagens/imagem poster.jpg" loop>
+        <source src="vídeos/video_576.mp4" type="video/mp4">
+        <source src="vídeos/video_576_3.webm" type="video/webm">
+        <source src="vídeos/video_576_2.mkv" type="video/mp4">
+        <source src="vídeos/video_576_4.ogv" type="video/ogg">
+        <p>Caso o seu navegador não consiga rodar, baixe o vídeo ao <a href="vídeos/video_576.mp4" download="vídeos/video_576.mp4" type="video/mp4">clicar aqui</a></p>
+    </video>
+    <p>OBS: Coloque todos os formatos de vídeo, pois nunca se sabe de que navegador o site será acessado.</p>
+    <video controls loop width="360">
+        <source src="vídeos/whatsapp.mp4" type="video/mp4">
+    </video>
+    <p>OBS: Não coloquei outros formatos, muito menos uma tumb, por ser apenas um teste.</p>
+    <h2>Vídeos sem hospedagem própria</h2>
+    <p>Sabe-se que os videos com hospedagem própria, consomem muito armazenamento de hospedagem do site de forma desnecessária. Nesse sentido, utilize sites de serviços de vídeos para utilizar na página, como o youtube. Para isso, basta selecionar o vídeo, ou postar um próprio, ir em "compartilhar" e utilizar a opção "incorporar", logo após, copiar e colar no site.</p>
+    <iframe loop width="560" height="315" src="https://www.youtube.com/embed/KS_TrJOQB-g?si=Ln1kumoGXQyYfZ9z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <p>Caso queira que o seu vídeo se limite apenas ao seu site, pode-se postar os vídeos no "vimeo", ou até mesmo pegar os vídeos de lá (é o mesmo processo do youtube). </p>
+    <iframe src="https://player.vimeo.com/video/340221722?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Música Electrónica 2019"></iframe>
+</body>
+</html>

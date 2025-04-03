@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body{
+          font: normal 16px 'Courier New', Courier, monospace;
+        }
+        a{
+            color: #cc0e0e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover{
+            color: #9B3CFF;
+            text-decoration: underline;
+        }
+        a:active{
+            color: #44ff00;
+
+        }
+        .especial{
+            background-color: #667def;
+        }
+        .especial::after{
+            content: '✿';
+        }
+        .especial::before{
+            content: '✿';
+        }
+    </style>
+    <title>Projetinho 20</title>
+</head>
+<body>
+    <h1>Links customizados</h1>
+    <ul>
+        <li><a href="https://www.netflix.com/browse" rel="external" target="_blank" class="especial">Netflix</a></li>
+        <li><a href="https://www.casasbahia.com.br/" rel="external" target="_blank">Casas bahia</a></li>
+        <li><a href="https://www.webmotors.com.br/" rel="external" target="_blank" class="especial">Carros</a></li>
+    </ul>
+</body>
+</html>

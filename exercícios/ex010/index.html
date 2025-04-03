@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Projetinho 10(links)</title>
+</head>
+<body>
+    <h1>Links e Hipertextos</h1>
+    <h2>Links externos</h2>
+    <p>Para criar um hipertexto, basta usar a tag <u>"&lt;a href=""&gt;"</u> e colcocar o link em <u>"href=" """</u>.</p>
+    <p>Ex: Por aqui, você pode acessar o <a href="https://ge.globo.com/">globo esporte</a>.</p>
+    <p>Para o link externo abrir em outra aba, basta usar o parâmetro "target="_blank" e <u>rel="external"</u>.</p>
+    <p>Caso o link seja duvidoso, use <u>rel="nofollow"</u></p>
+    <p>Ex: Por aqui, você pode acessar o <a href="https://ge.globo.com/" target="_blank" rel="external">globo esporte</a>. </p>
+    <h2>Teste</h2>
+    <p>Acesse o site da steam, <a href="https://store.steampowered.com/" target="_blank">clique aqui.</a>
+    <h2>Links internos</h2>
+    <p>Para criar um hipertexto com um link interno, basta usar a tag <u>"&lt;a href=""&gt;"</u> e colcocar o nome do arquivo em <u>"href=" """</u>. Desta forma, não se esqueça de colocar os parâmetros: "target="_blank"" e <u>"rel=" ""</u></p>
+    <p>Quando for usar os parâmetros, se estiver na página principal, use o <u>"rel="next""</u>, se estiver na posterior e quiser voltar para a anterior, use <u>"rel="prev""</u>. Assim, o navegador pode entender melhor para onde você deseja ir, por isso, sempre use esse parâmetro.</p>
+    <p>Ex: <a href="pag2.html" rel="next">Clique aqui</a>, para ir para o meu outro site.</p>
+    <h3>Com duas janelas agora</h3>
+    <p>Ex: <a href="pag2.html" target="_blank" rel="next">Clique aqui</a>, para ir para o meu outro site.</p> 
+    <h3>Em outros arquivos</h3>
+    <p>Use as mesmas tags, porém, use ctrl+espaço para selecionar o arquivo do outro site na pasta.</p>
+    <p>Ex:<a href="reportagens(ex)/pag3.html" rel="next">Clique aqui</a>, para ir para o meu terceiro site.</p>
+    <P>Caso queira voltar para a página principal, é obrigatorio usar "../" antes de colocar o arquivo desejado, pois signifa que está voltando arquivos para achar o outro.</P>
+    <p>Ex: "href="../index.html""</p>
+    <h2>Link de downloud</h2>
+    <p>Para criar um hipertexto para fazer o download de algo, basta usar a tag <u>"&lt;a href=""&gt;"</u> e colcocar o nome do arquivo em <u>"href=" """</u>. Em seguida, usar o parâmetro "downloud=" "" mais "type=" "" junto ao media type do tipo de arquivo, como o do pdf(olhe no site iana.org e coloque no type).</p>
+    <P>Ex: <a href="documento/Foto_3x4.pdf" download="Foto_3x4.pdf" type="application/pdf">Clique aqui</a> para baixar o arquivo pdf</P>
+     <p>Ex 2: <a href="documento/Foto_3x4.zip" download="Foto_3x4.zip" type="application/zip">Clique aqui</a> para baixar o arquivo zip</p> <!--FUNCIONOUUUUUU -->
+</body>
+</html>
